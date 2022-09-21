@@ -67,7 +67,7 @@ function eventFunction(e) {
 
     if (val === "/") total = operate(divide, total, num);
 
-    if (val === "=" || val === "Enter") total = operate(null, total, num);
+    if (val === "=") total = operate(null, total, num);
 }
 
 function add(currentTotal, currentNum) { return currentTotal + currentNum; }
