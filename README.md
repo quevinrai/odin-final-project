@@ -12,3 +12,4 @@
 <ul>
     <li> When clicking on a button's text, it doesn't trigger it's "click" event. User must click anywhere within the button as long as it's not the button's text. </li>
 </ul>
+
